@@ -1,0 +1,10 @@
+{
+  "name": "Dictionary Flash Card",
+  "version": "1.0",
+  "description": "Keep track of words you want to learn",
+  "browser_action": {
+    "default_icon": "dictionary.png",
+	"popup": "popup.html"
+  },
+}
+

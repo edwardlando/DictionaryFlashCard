@@ -42,7 +42,7 @@ $(document).ready(function() {
       };
 
     function define(word) {
-    httpGet("http://en.wiktionary.org/w/api.php?action=query&titles=" + word)
+    httpGet("http://www.dictionaryapi.com/api/v1/references/collegiate/xml/" + word + "?key=84878cad-d371-4c17-b427-1d99138193ee")
     };
 
 

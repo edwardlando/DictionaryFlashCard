@@ -41,16 +41,12 @@ $(document).ready(function() {
       return xmlHttp.responseText;
       };
 
-    function define(word) {
-    httpGet("http://www.dictionaryapi.com/api/v1/references/collegiate/xml/" + word + "?key=84878cad-d371-4c17-b427-1d99138193ee")
+    function define() {
+    httpGet("http://www.google.com")
     };
 
 
-
-    
-
-    
-  
+    $.getJSON("http://api.wordnik.com//v4/word.json/tree/definitions?includeRelated=false&includeTags=false&useCanonical=false&api_key=c6b9e1f226bf29ae3e00c01592d09ccce1e31a43ec69d4cef", function(data){console.log(data)});
 
     /*
       // Flip
